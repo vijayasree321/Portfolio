@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vijaya Sree Mangali | Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar">
+      <div class="logo">Vijaya Sree Mangali</div>
+
+      <!-- HAMBURGER BUTTON -->
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- NAV LINKS -->
+      <nav class="nav-links">
+        <a href="#intro">Intro</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="Assets/vijaya.pdf" target="_blank">Resume</a>
+      </nav>
+    </header>
+
+    <main id="content">
+      <!-- ================= INTRO / INTERSECTION SECTION ================= -->
+      <section id="intro" class="intro-section">
+        <div class="intro-inner">
+          <!-- LEFT: Text content -->
+          <div class="intro-left">
+            <div class="role-pill">Full-Stack Web Developer</div>
+
+            <h1 class="intro-title">
+              Hi, I'm
+              <span class="name-gradient">Vijaya Sree Mangali</span>
+            </h1>
+
+            <p class="intro-desc">
+              A passionate Full-Stack Web Developer focused on building clean,
+              modern, and scalable web applications. I build responsive
+              frontends with React and production-ready backends using Node.js,
+              Express and MongoDB. Seeking Frontend / Backend / Full-Stack
+              roles.
+            </p>
+
+            <div class="intro-ctas">
+              <a class="btn primary" href="#projects">View Projects</a>
+              <a class="btn ghost" href="#contact">Contact Me</a>
+              <a class="btn outline" href="Assets/vijaya.pdf" download
+                >Download Resume <i class="fa-solid fa-arrow-trend-up"></i
+              ></a>
+            </div>
+
+            <!-- ANNOUNCEMENT / SKILL TICKER (plain text in ticker) -->
+            <div class="announce-wrapper" style="--announce-width: 78%">
+              <div class="announce-inner" aria-hidden="true">
+                <!-- two repeats for continuous scroll -->
+                <div class="ticker-row">
+                  <span class="tick-item">HTML</span>
+                  <span class="tick-item">CSS</span>
+                  <span class="tick-item">JavaScript</span>
+                  <span class="tick-item">React</span>
+                  <span class="tick-item">Node.js</span>
+                  <span class="tick-item">Express</span>
+                  <span class="tick-item">MongoDB</span>
+                  <span class="tick-item">SQL</span>
+                  <span class="tick-item">Python</span>
+                </div>
+
+                <div class="ticker-row">
+                  <span class="tick-item">HTML</span>
+                  <span class="tick-item">CSS</span>
+                  <span class="tick-item">JavaScript</span>
+                  <span class="tick-item">React</span>
+                  <span class="tick-item">Node.js</span>
+                  <span class="tick-item">Express</span>
+                  <span class="tick-item">MongoDB</span>
+                  <span class="tick-item">SQL</span>
+                  <span class="tick-item">Python</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- RIGHT: Profile avatar -->
+          <aside class="intro-right">
+            <div class="avatar-wrap">
+              <img
+                src="Assets/profile.jpg"
+                alt="Vijay Sri Mangali"
+                class="avatar-img"
+              />
+            </div>
+            <div class="open-tag"><span class="dot"></span> Open to work</div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- ================= PROJECTS SECTION ================= -->
+      <section id="projects" class="projects-section">
+        <div class="section-inner">
+          <header class="section-header">
+            <h2 class="section-title">
+              <span class="grad-text">Featured</span> Projects
+            </h2>
+            <p class="section-sub">Below Projects are built with MERN stack</p>
+          </header>
+
+          <div class="projects-grid">
+            <article class="project-card project-small" data-idx="3">
+              <div class="card-media">
+                <img
+                  src="/Assets/blinko.png"
+                  alt="UPI scam project"
+                  loading="lazy"
+                />
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Blinko</h3>
+                <p class="card-desc">
+                  Developed a MERN grocery web app with product categories,
+                  cart/wishlist flows, and JWT authentication. Designed the
+                  frontend UI in React.
+                </p>
+                <div class="tech-list">
+                  <span>React</span><span>Node.js</span><span>Express</span
+                  ><span>MongoDB</span><span>JWT</span>
+                </div>
+                <div class="card-actions">
+                  <a
+                    class="btn primary"
+                    href="https://github.com/vijayasree321/Blinko.git"
+                    target="_blank"
+                    data-type="repo"
+                    >Repo</a
+                  >
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card project-small" data-idx="4">
+              <div class="card-media">
+                <img
+                  src="Assets/wander.png"
+                  alt="Portfolio screenshot"
+                  loading="lazy"
+                />
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">WanderWing</h3>
+                <p class="card-desc">
+                  Built a full-stack listing platform with CRUD features, search
+                  filters, and location integration using MongoDB Atlas.
+                </p>
+                <div class="tech-list">
+                  <span>Node.js</span><span>Express</span><span>MongoDB</span
+                  ><span>EJS</span><span>JavaScript</span>
+                </div>
+                <div class="card-actions">
+                  <a
+                    class="btn primary"
+                    href="https://wanderwing-fi4o.onrender.com/listings"
+                    data-type="demo"
+                    target="_blank"
+                    >Live</a
+                  >
+                  <a
+                    class="btn outline"
+                    href="https://github.com/vijayasree321/WanderWing.git"
+                    data-type="repo"
+                    target="_blank"
+                    >Repo</a
+                  >
+                </div>
+              </div>
+            </article>
+          </div>
+          <!-- /projects-grid -->
+          <header class="section-header">
+            <h2 class="section-title">
+              <span class="grad-text">Other</span> Projects
+            </h2>
+          </header>
+          <div class="projects-grid">
+            <article class="project-card project-small" data-idx="3">
+              <div class="card-media">
+                <img
+                  src="Assets/upi.png"
+                  alt="UPI scam project"
+                  loading="lazy"
+                />
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">
+                  UPI scam identification using ML models
+                </h3>
+                <p class="card-desc">
+                  Led the team and built the frontend interface for the ML fraud
+                  detection system. Coordinated integration between Flask
+                  backend and UI to display prediction results.
+                </p>
+                <div class="tech-list">
+                  <span>Python</span><span>Flask</span
+                  ><span>Machine Learning</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card project-small" data-idx="4">
+              <div class="card-media">
+                <img
+                  src="Assets/portfolio.png"
+                  alt="Portfolio screenshot"
+                  loading="lazy"
+                />
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Personal Portfolio</h3>
+                <p class="card-desc">
+                  Designed and developed a fully responsive portfolio with
+                  custom layouts, animations, and gradient theming.
+                </p>
+
+                <div class="tech-list">
+                  <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                </div>
+                <div class="card-actions">
+                  <a class="btn primary" href="#" data-type="demo">Live</a>
+                  <a class="btn outline" href="#" data-type="repo">Repo</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <!-- /section-inner -->
+      </section>
+      <!-- ================= EDUCATION SECTION ================= -->
+      <section id="education" class="education-section">
+        <div class="edu-inner">
+          <h2 class="edu-title">
+            <span class="grad-text">Education</span>
+          </h2>
+
+          <div class="edu-card">
+            <h3 class="edu-degree">
+              Bachelor of Technology (B.Tech) — Computer Science & Engineering
+            </h3>
+            <p class="edu-college">Graduated in July 2025</p>
+            <p class="edu-college">
+              G Pullaiah College of Engineering and Technology
+            </p>
+
+            <p class="edu-score">Aggregate: <strong>86%</strong></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= CONTACT SECTION (Split Layout) ================= -->
+      <section id="contact" class="contact-section">
+        <div class="contact-inner">
+          <!-- LEFT: text + actions -->
+          <div class="contact-left">
+            <h2 class="contact-title">
+              <span class="grad-text">Get in touch</span>
+            </h2>
+            <p class="contact-sub">
+              Have a project or role in mind? I'm open to Frontend, Backend or
+              Full-Stack opportunities. Drop a message or connect via GitHub /
+              LinkedIn.
+            </p>
+
+            <div class="contact-actions">
+              <a
+                class="contact-btn email-btn"
+                href="mailto:vijayasreemangali@gmail.com"
+                aria-label="Email Vijay Sri Mangali"
+                >vijayasreemangali@gmail.com</a
+              >
+              <a
+                class="contact-btn cv-btn"
+                href="Assets/vijaya.pdf"
+                download
+                aria-label="Download resume"
+                >Download Resume</a
+              >
+              <a
+                class="contact-btn message-btn"
+                href="#projects"
+                aria-label="View projects"
+                >View Projects</a
+              >
+            </div>
+          </div>
+
+          <!-- RIGHT: large round social buttons -->
+          <aside class="contact-right" aria-hidden="false">
+            <div class="social-list" role="list">
+              <a
+                role="listitem"
+                class="social-btn"
+                id="github-btn"
+                href="https://github.com/vijayasree321"
+                target="_blank"
+                rel="noopener"
+                aria-label="GitHub"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  width="20"
+                  height="20"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M12 .5C5.73.5.75 5.48.75 11.76c0 4.93 3.19 9.12 7.61 10.6.56.1.76-.24.76-.53 0-.26-.01-.96-.02-1.88-3.09.67-3.75-1.49-3.75-1.49-.5-1.27-1.22-1.61-1.22-1.61-.99-.67.08-.66.08-.66 1.1.08 1.68 1.13 1.68 1.13.97 1.67 2.55 1.19 3.17.91.1-.71.38-1.19.69-1.46-2.47-.28-5.06-1.24-5.06-5.53 0-1.22.43-2.21 1.14-2.99-.12-.28-.5-1.41.11-2.95 0 0 .92-.3 3.02 1.13a10.5 10.5 0 0 1 2.75-.37c.93 0 1.87.12 2.75.37 2.09-1.43 3.01-1.13 3.01-1.13.62 1.54.24 2.67.12 2.95.71.78 1.14 1.77 1.14 2.99 0 4.3-2.6 5.24-5.08 5.51.39.34.74 1.02.74 2.06 0 1.49-.01 2.69-.01 3.05 0 .29.2.64.77.53 4.4-1.49 7.6-5.68 7.6-10.6C23.25 5.48 18.27.5 12 .5z"
+                  ></path>
+                </svg>
+              </a>
+
+              <a
+                role="listitem"
+                class="social-btn"
+                id="linkedin-btn"
+                href="https://www.linkedin.com/in/mangali-vijayasree/"
+                target="_blank"
+                rel="noopener"
+                aria-label="LinkedIn"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  width="20"
+                  height="20"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M20.45 20.45h-3.56v-5.21c0-1.24-.02-2.85-1.74-2.85-1.74 0-2.01 1.36-2.01 2.76v5.3h-3.56V9h3.42v1.56h.05c.48-.91 1.65-1.86 3.4-1.86 3.64 0 4.31 2.4 4.31 5.51v6.24zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V9h3.56v11.45z"
+                  />
+                </svg>
+              </a>
+
+              <a
+                role="listitem"
+                class="social-btn"
+                id="telegram-btn"
+                href="https://t.me/VijayaSree_2003"
+                target="_blank"
+                rel="noopener"
+                aria-label="Telegram"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  width="20"
+                  height="20"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M9.5 15.5l-.4 4.6c.6 0 .9-.26 1.2-.57l2.9-2.8 5.9 4.3c1.1.62 1.9.3 2.2-.99 0 0 .91-8.36 1.13-10.47.12-1.08-.58-1.49-1.17-1.32L2.1 10.6c-1.04.33-1.03.99-.18 1.26l5.1 1.98 11.86-7.7c.56-.38 1.07-.17.65.26L9.5 15.5z"
+                  />
+                </svg>
+              </a>
+            </div>
+            <div class="social-hint">
+              Or reach me via email / resume on the left
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <h3 class="footer-logo">Vijaya Sree Mangali</h3>
+
+        <nav class="footer-links">
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+          <a href="https://github.com/vijayasree321" target="_blank">GitHub</a>
+          <a
+            href="https://www.linkedin.com/in/mangali-vijayasree/"
+            target="_blank"
+            >LinkedIn</a
+          >
+          <a href="https://t.me/VijayaSree_2003" target="_blank">Telegram</a>
+        </nav>
+
+        <p class="footer-copy">© 2025 — Built by Vijaya Sree Mangali</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
