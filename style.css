@@ -906,3 +906,15 @@ body {
     pointer-events: auto;
   }
 }
+@media (max-width: 520px) {
+  .intro-ctas {
+    flex-direction: column;
+    width: 100%;
+  }
+  .intro-ctas .btn {
+    width: 100%;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+}
+
